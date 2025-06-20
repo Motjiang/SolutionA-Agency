@@ -1,5 +1,27 @@
-.service__grid {
-  margin-block: 4rem;
-  display: grid;
-  gap: 1rem;
+.service__card {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background-color: var(--white);
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.service__card:hover {
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-0:hover {
+  border-color: #00d5be;
+}
+
+.card-1:hover {
+  border-color: #ff637e;
+}
+
+.card-2:hover {
+  border-color: #c27aff;
+}
+
+.card-3:hover {
+  border-color: #00bcff;
 }

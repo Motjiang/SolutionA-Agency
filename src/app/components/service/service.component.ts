@@ -13,7 +13,13 @@ import { CommonModule } from '@angular/common';
         <h2 class="section__header">
           We are Strategic Creative Digital Agency Service
         </h2>
-        <app-service-card *ngFor="let serviceOffered of serviceOfferedList" [serviceOffered]="serviceOffered" />
+        <div class="service__grid">
+          <app-service-card
+            *ngFor="let serviceOffered of serviceOfferedList; let i = index"
+            [serviceOffered]="serviceOffered"
+            [cardIndex]="i"
+          />
+        </div>
         <div class="service__btn">
           <button class="btn">All Our Services</button>
         </div>
