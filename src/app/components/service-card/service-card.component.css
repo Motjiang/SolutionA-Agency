@@ -1,0 +1,5 @@
+.service__grid {
+  margin-block: 4rem;
+  display: grid;
+  gap: 1rem;
+}

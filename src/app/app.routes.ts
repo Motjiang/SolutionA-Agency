@@ -5,6 +5,7 @@ import { AboutComponent } from './components/about/about.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
+import { ServiceComponent } from './components/service/service.component';
 
 export const routes: Routes = [
   {
@@ -24,6 +25,10 @@ export const routes: Routes = [
       {
         path: 'header',
         component: HeaderComponent,
+      },
+      {
+        path:'service',
+        component:ServiceComponent
       },
       {
         path:'about-us',

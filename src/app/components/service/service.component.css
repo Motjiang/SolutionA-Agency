@@ -1,0 +1,9 @@
+.service {
+  background-color: var(--extra-light);
+}
+
+.service__container.section__header {
+  max-width: 750px;
+  margin-inline: auto;
+}
+
