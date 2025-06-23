@@ -27,10 +27,6 @@ import { RouterLink, RouterOutlet } from '@angular/router';
         <button class="btn">Let's Talk</button>
       </div>
     </nav>
-
-    <router-outlet/>
-
-    <app-footer/>
   `,
   styleUrl: './navbar.component.css'
 })
