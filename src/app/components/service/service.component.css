@@ -12,3 +12,26 @@
   display: grid;
   gap: 1rem;
 }
+
+.service__btn {
+  display: flex;
+  justify-content: center;
+}
+
+@media (width > 540px) {
+  .service__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width > 768px) {
+  .service__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (width > 1024px) {
+  .service__grid {
+    gap: 1.5rem;
+  }
+}

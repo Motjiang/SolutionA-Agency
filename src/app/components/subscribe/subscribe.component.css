@@ -1,0 +1,33 @@
+.subscribe__content {
+  padding: 5rem 1rem;
+  border-radius: 1rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe__content .section__header {
+  margin-bottom: 2rem;
+  max-width: 750px;
+  margin-inline: auto;
+  color: var(--white);
+}
+
+.subscribe__content form {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.subscribe__content input {
+  width: 100%;
+  padding-inline: 1rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--text-dark);
+}

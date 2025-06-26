@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { FooterComponent } from "../footer/footer.component";
+import { FooterComponent } from '../footer/footer.component';
 import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [FooterComponent, RouterOutlet, RouterLink],
+  imports: [],
   template: `
     <nav>
       <div class="nav__header">
@@ -17,19 +17,17 @@ import { RouterLink, RouterOutlet } from '@angular/router';
         </div>
       </div>
       <ul class="nav__links" id="nav-links">
-        <li><a [routerLink] = "['/home']" >Home</a></li>
-        <li><a [routerLink] = "['/home/about-us']" >About Us</a></li>
-        <li><a [routerLink] = "['/home/feedback']" >Client</a></li>
-        <li><a [routerLink] = "['/home/reach-us']" >Contact</a></li>
-        <li><a [routerLink] = "['/home/portfolio']" >Portfolio</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#client">Client</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
       </ul>
       <div class="nav__btns">
         <button class="btn">Let's Talk</button>
       </div>
     </nav>
   `,
-  styleUrl: './navbar.component.css'
+  styleUrl: './navbar.component.css',
 })
-export class NavbarComponent {
-
-}
+export class NavbarComponent {}
